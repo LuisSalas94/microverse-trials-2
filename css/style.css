@@ -11,6 +11,12 @@ body {
 	background-color: #eee;
 }
 
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 img {
 	display: block;
 	width: 30%;
@@ -26,17 +32,27 @@ img {
 	align-items: center;
 }
 
-#title{
+#title {
 	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 4.5rem;
+	letter-spacing: 0.8rem;
+	color: steelblue;
+	text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-#img-caption{
+#img-caption {
 	font-size: small;
 	text-align: right;
 }
 
-#tribute-info{
-max-width: 60%;
-margin: 30px auto;
-line-height: 1.8rem;
+#tribute-info {
+	max-width: 60%;
+	margin: 30px auto;
+	line-height: 1.8rem;
+}
+
+#main a {
+	color: steelblue;
+	font-weight: 800;
 }
